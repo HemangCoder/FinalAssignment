@@ -1,0 +1,30 @@
+<template>
+    <lightning-quick-action-panel>
+        <lightning-record-edit-form
+        object-api-name="Contact"
+        record-id={recordId}
+        onsuccess={handleSuccess}
+        oncancel={handleCancel}>
+
+        <lightning-input-field
+        field-name="HasOptedOutOfEmail">
+        </lightning-input-field>
+        <lightning-button
+                    variant="brand"
+                    type="submit"
+                    name="save"
+                    label="Save"
+                    class="slds-float_right slds-p-around_medium"
+                ></lightning-button>
+                <lightning-button
+                    variant="neutral"
+                    type="cancel"
+                    name="cancel"
+                    label="Cancel"
+                    class="slds-float_right slds-p-around_medium"
+                    onclick={handleCancel}
+                ></lightning-button>
+        </lightning-record-edit-form>
+    </lightning-quick-action-panel>
+    
+</template>
