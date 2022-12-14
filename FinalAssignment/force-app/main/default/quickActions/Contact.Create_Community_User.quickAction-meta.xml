@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionSubtype>ScreenAction</actionSubtype>
+    <description>Create a community user with details of contact whether email opted or  not</description>
+    <label>Create Community User</label>
+    <lightningWebComponent>communityUserForContact</lightningWebComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningWebComponent</type>
+</QuickAction>
