@@ -3,20 +3,5 @@
     <description>Permission set to automatically create community user for a contact</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>My Community Permission Set</label>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditTask</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
 </PermissionSet>
+
